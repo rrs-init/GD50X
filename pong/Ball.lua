@@ -21,6 +21,6 @@ function Ball:update(dt)
 	self.y = self.y + self.dy * dt
 end
 
-function Ball:redner()
+function Ball:render()
 	love.graphics.rectangle("fill", self.x, self.y, self.w, self.h)
 end
