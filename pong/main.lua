@@ -1,5 +1,6 @@
-Push = require 'push'
-Class = require 'class'
+package.path = package.path .. ";../?.lua"
+Push = require('push')
+Class = require('class')
 require 'Paddle'
 require 'Ball'
 WINDOW_WIDTH = 1280

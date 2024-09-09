@@ -1,0 +1,2 @@
+push
+require 'push'
